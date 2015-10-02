@@ -43,7 +43,7 @@ gem 'jquery-turbolinks'
 
 # Paperclip + AWS
 gem "paperclip"
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 
 gem 'rails_12factor', group: :production
 
