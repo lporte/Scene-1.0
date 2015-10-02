@@ -45,6 +45,8 @@ gem 'jquery-turbolinks'
 gem "paperclip"
 gem 'aws-sdk'
 
+gem 'rails_12factor', group: :production
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -63,3 +65,5 @@ group :development, :test do
   # Need to store S3 auth
   gem 'dotenv-rails'
 end
+
+ruby '2.0.0'
