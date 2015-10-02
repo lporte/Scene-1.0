@@ -12,14 +12,15 @@
 //
 // line 14 is w/out templates (for reference), line 15 is with
 
+//= require jquery
+//= require jquery_ujs
 //= require angular
 //= require angular-ui-bootstrap
 //= require angular-animate
 //= require angular-resource
 //= require angular-ui-bootstrap-tpls
-//= require jquery
-//= require jquery_ujs
 //= require lightbox
 // require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+

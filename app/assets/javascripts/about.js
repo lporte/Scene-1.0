@@ -1,5 +1,3 @@
-
-
 $("#animate-test div").hover(function(){
     $(this).filter(':not(:animated)').animate({ width: "200px" });
 }, function() {
