@@ -17,4 +17,9 @@ module ArtistsHelper
     end
   end
 
+  def artist_city_state(artist)
+    /([^,]*),\s([^,]*[a-zA-Z]*)/.match(artist.address)
+    a = $2
+  end
+
 end
